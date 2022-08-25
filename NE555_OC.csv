@@ -1,12 +1,13 @@
-Id,Designator,Package,Quantity,Designation,Descritpion
-1,C2,C_0805_2012Metric,1,1µ,
-2,"D3,D2",D_MiniMELF,2,4148,
-3,"C1,C3",C_0805_2012Metric,2,220n,
-4,D1,D_MiniMELF,1,5V6 zener,optional
-5,"J2,J1",PinHeader_1x02_P2.54mm_Vertical,2,Conn_01x02_Male,
-6,Q1,SOT-23,1,MMBT3904,
-7,U1,SOIC-8_3.9x4.9mm_P1.27mm,1,NE555D,
-8,"R2,R1",R_1206_3216Metric,2,330k,
-9,U2,SOT-223-3_TabPin2,1,AP1117-5,
-11,R3,R_1206_3216Metric,1,750,
-12,C4,CP_Radial_D6.3mm_P2.50mm,1,100u,>25V
+Reference, Quantity, Value, Footprint,Descritpion
+C1 C3 ,2,220n,Capacitor_SMD:C_0805_2012Metric,
+C2 ,1,1µ,Capacitor_SMD:C_0805_2012Metric,
+C4 ,1,100u,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,optional
+D1 D4 ,2,5V6,Diode_SMD:D_MiniMELF,optional
+D2 D3 ,2,1N4148,Diode_SMD:D_MiniMELF,
+J1 J2 ,2,Conn_01x02_Male,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
+Q1 ,1,MMBT3904,Package_TO_SOT_SMD:SOT-23,
+Q2 ,1,BCX56,Package_TO_SOT_SMD:SOT-89-3,
+R1 R2 ,2,330k,Resistor_SMD:R_1206_3216Metric,
+R3 ,1,750,Resistor_SMD:R_1206_3216Metric,
+R4 ,1,8k2,Resistor_SMD:R_1206_3216Metric,
+U1 ,1,NE555D,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,
